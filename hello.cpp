@@ -2,6 +2,10 @@
 
 using namespace std;
 int main(){
-  cout << "mimohshukla";
+  cout << "mimohshukla" <<endl;
+  // for new line 
+  // cout << endl;
+  cout << "hello from meerut";
+
   return 0;
 }
