@@ -2,16 +2,9 @@
 using namespace std;
 
 int main(){
-    // int arr[]={1,0,0,1,0,1,0,0,1,0};
-    int arr[500];
-    int n;
-    cout << "enter a number";
-    cin >> n;
-    for (int i = 0; i <n; i++)
-    {
-        /* code */
-        cin>>arr[i];
-    }
+    int arr[]={1,0,0,1,0,1,0,0,1,0};
+    int size=10;
+
     int numZeroes=0;
     int numOnes=0;
     for (int i = 0; i < size; i++)
@@ -24,10 +17,12 @@ int main(){
         {
             numOnes++;
         }
+        
 
+        
     }
     cout<<"Number of zeroes: "<<numZeroes<<endl;
     cout<<"Number of ones: "<<numOnes<<endl;
     return 0;
-
+ 
 }
