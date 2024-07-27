@@ -1,8 +1,13 @@
 #include<iostream>
 using namespace std;
 
-int reverseNumber(int n){
-   
+void countNumbersreverse(int n){
+    for (int i = n; i>=0; i--)
+    {
+        cout<<i<<" ";
+    }
+    cout <<endl;
+    
 }
 
 int main(){
@@ -10,16 +15,9 @@ int main(){
     cout<<"enter a number:";
     
     cin>>n;
+    countNumbersreverse(n);
 
-    if (n<0)
-    {
-        cout << "the factorial of less than zero does not exist:";
 
-    }
-    else
-    {
-        cout << "the factorial of " << n << " is " << Factorial(n);
-    }
     
     
     return 0;
