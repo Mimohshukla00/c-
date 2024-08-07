@@ -7,6 +7,17 @@ using namespace std;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 int binary_search(int arr[],int start, int end,int key){
     while (start<=end)
     {
