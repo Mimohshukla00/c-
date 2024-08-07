@@ -39,13 +39,11 @@ int main() {
     long long numberOfTrees, requiredWood;
     
     // Read the number of trees
-    cout<<"number of trees:";
-
+    cout << "Enter the number of trees: ";
     cin >> numberOfTrees;
 
-    // required amount of wood
-
-    cout<<"amount of wood:in (m):";
+    // Read the required amount of wood
+    cout << "Enter the amount of wood required (m): ";
     cin >> requiredWood;
     
     // Vector to store the heights of the trees
@@ -53,11 +51,9 @@ int main() {
     
     // Read the heights of the trees
     for (long long i = 0; i < numberOfTrees; ++i) {
+        cout << "Enter the height of tree " << (i + 1) << ": ";
         cin >> treeHeights[i];
     }
     
     // Output the maximum saw blade height
-    cout << maxSawBladeHeight(treeHeights, requiredWood) << endl;
-
-    return 0;
-}
+    cout << "The maximum saw blade height is: " << maxSawBladeHeight(treeHeights, requiredWood) << endl
