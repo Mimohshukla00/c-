@@ -56,4 +56,7 @@ int main() {
     }
     
     // Output the maximum saw blade height
-    cout << "The maximum saw blade height is: " << maxSawBladeHeight(treeHeights, requiredWood) << endl
+    cout << "The maximum saw blade height is: " << maxSawBladeHeight(treeHeights, requiredWood) << endl;
+
+    return 0;
+}
